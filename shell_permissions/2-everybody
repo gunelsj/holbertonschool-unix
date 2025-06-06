@@ -1,5 +1,3 @@
 #!/bin/bash
-if test -f hello
-then chmod a+x hello
-fi
+chmod a+x hello
 
