@@ -1,2 +1,5 @@
 #!/bin/bash
-[ -f hello ] && chmod a+x hello
+if test -f hello
+then chmod a+x hello
+fi
+
