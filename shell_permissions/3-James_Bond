@@ -1,2 +1,5 @@
 #!/bin/bash
-[ -f hello ] && chmod 007 hello
+if [ -f hello ]
+then
+  chmod 007 hello
+fi
